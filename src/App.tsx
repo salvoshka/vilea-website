@@ -1583,7 +1583,7 @@ export default function App() {
 
                     <div className="flex flex-col gap-2.5 pt-2 sm:flex-row">
                       <a
-                        href={`https://wa.me/?text=${encodeURIComponent(
+                        href={`https://wa.me/0895703081642?text=${encodeURIComponent(
                           buildWhatsAppMessage()
                         )}`}
                         target="_blank"
