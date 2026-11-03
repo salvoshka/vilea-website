@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 // ==========================================
 const IMAGES = {
   heroPortrait:
-    "/office.jpeg",
+    "/office.png",
   aboutStudio:
     "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=85",
   bentoCreative:
