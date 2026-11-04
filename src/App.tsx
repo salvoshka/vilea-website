@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 // KONFIGURASI NOMOR WHATSAPP & GAMBAR
 // ==========================================
 // Ubah nomor WhatsApp di bawah ini (gunakan awalan 62 tanpa tanda + atau spasi)
-const WHATSAPP_NUMBER = "6281288889999";
+const WHATSAPP_NUMBER = "62895703081642";
 
 const IMAGES = {
   heroPortrait:
