@@ -457,44 +457,7 @@ const PACKAGE_TERMS = [
   },
 ];
 
-const TEAM_MEMBERS = [
-  {
-    initial: "E",
-    name: "ERIKA",
-    role: "Creative Strategy & Growth",
-    skills:
-      "Content planning, KOL coordination, creative support, CRO, sales support",
-    tags: ["Content Planning", "KOL Coordination", "CRO", "Creative Support"],
-  },
-  {
-    initial: "I",
-    name: "IVAN",
-    role: "Director & Business Advisor",
-    skills:
-      "Business direction, strategic planning, project coordination, operational support",
-    tags: [
-      "Business Direction",
-      "Strategic Planning",
-      "Project Coordination",
-    ],
-  },
-  {
-    initial: "R",
-    name: "RIFFA",
-    role: "Lead Designer & Sales",
-    skills:
-      "Visual identity, lead sales, client relations, client visits, KOL coordination",
-    tags: ["Visual Identity", "Lead Sales", "Client Relations", "Client Visits"],
-  },
-  {
-    initial: "D",
-    name: "DIVA",
-    role: "Creative & Content Support",
-    skills:
-      "Design support, content planning support, sales support, administration",
-    tags: ["Design Support", "Content Support", "Administration"],
-  },
-];
+
 
 export default function App() {
   // Default adalah false (Tema Terang). Saat tombol diklik menjadi true (Night Mode / Gelap).
@@ -704,12 +667,6 @@ export default function App() {
                   className="transition-colors hover:text-[#E11D48]"
                 >
                   Paket Harga
-                </a>
-                <a
-                  href="#tim"
-                  className="transition-colors hover:text-[#E11D48]"
-                >
-                  Tim
                 </a>
                 <a
                   href="#ketentuan"
@@ -1703,87 +1660,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* ====================================================
-            SECTION 7 — TIM KAMI
-        ==================================================== */}
-        <section
-          id="tim"
-          className="mx-auto max-w-[1360px] px-6 py-24 md:px-10"
-        >
-          <Reveal>
-            <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
-              <div>
-                <PillBadge isDark={isDark}>08 / Tim Kami</PillBadge>
-                <h2
-                  className={`mt-4 text-4xl font-medium leading-[1.1] tracking-[-0.03em] md:text-5xl ${textPrimary}`}
-                >
-                  Tim kreatif dengan peran
-                  <br />
-                  yang saling melengkapi
-                </h2>
-              </div>
-
-              <p className={`max-w-xs text-sm leading-relaxed ${textSecondary}`}>
-                Strategi, desain, koordinasi klien, dan dukungan operasional
-                dalam satu tim.
-              </p>
-            </div>
-          </Reveal>
-
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {TEAM_MEMBERS.map((member, idx) => (
-              <Reveal key={member.name} delay={idx * 80}>
-                <div
-                  className={`group flex h-full flex-col justify-between rounded-2xl border p-6 transition-all ${cardBg} hover:border-rose-400/40`}
-                >
-                  <div>
-                    <div className="mb-6 flex items-center justify-between">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#D91B5C] to-[#F472B6] text-lg font-bold text-white shadow-[0_8px_20px_rgba(225,29,72,0.28)]">
-                        {member.initial}
-                      </div>
-                      <span
-                        className={`text-[11px] font-medium uppercase tracking-widest ${
-                          isDark ? "text-white/35" : "text-slate-400"
-                        }`}
-                      >
-                        VILEA TEAM
-                      </span>
-                    </div>
-
-                    <h3
-                      className={`text-xl font-semibold tracking-tight ${textPrimary}`}
-                    >
-                      {member.name}
-                    </h3>
-                    <p className={`mt-1 text-xs font-medium ${accentText}`}>
-                      {member.role}
-                    </p>
-                    <p className={`mt-4 text-xs leading-relaxed ${textMuted}`}>
-                      {member.skills}
-                    </p>
-                  </div>
-
-                  <div
-                    className={`mt-6 flex flex-wrap gap-1.5 border-t pt-4 ${dividerBorder}`}
-                  >
-                    {member.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className={`rounded-md px-2.5 py-1 text-[10px] ${
-                          isDark
-                            ? "bg-white/[0.05] text-white/70"
-                            : "bg-slate-100 text-slate-600"
-                        }`}
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </section>
+        
 
         {/* ====================================================
             SECTION 8 — LET'S BUILD YOUR BRAND (CTA)
@@ -1831,7 +1708,7 @@ export default function App() {
                 <div className="flex flex-col justify-between lg:col-span-6">
                   <div>
                     <PillBadge isDark={isDark}>
-                      09 / LET&apos;S BUILD YOUR BRAND
+                      08 / LET&apos;S BUILD YOUR BRAND
                     </PillBadge>
                     <h2
                       className={`mt-4 text-3xl font-medium leading-[1.1] tracking-[-0.03em] sm:text-4xl ${textPrimary}`}
@@ -2059,14 +1936,6 @@ export default function App() {
                         className="transition-colors hover:text-[#E11D48]"
                       >
                         Paket Layanan
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#tim"
-                        className="transition-colors hover:text-[#E11D48]"
-                      >
-                        Tim Kami
                       </a>
                     </li>
                     <li>
