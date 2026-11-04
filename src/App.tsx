@@ -15,7 +15,7 @@ const IMAGES = {
   service01:
     "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
   service02:
-    "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1724862936518-ae7fcfc052c1?auto=format&fit=crop&w=800&q=80",
   service03:
     "https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=800&q=80",
   service04:
