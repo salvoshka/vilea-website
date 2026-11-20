@@ -10,7 +10,7 @@ const IMAGES = {
   heroPortrait:
     "/office.png",
   aboutStudio:
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=85",
+    "/hero.png",
   bentoCreative:
     "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=85",
   bentoTeam:
